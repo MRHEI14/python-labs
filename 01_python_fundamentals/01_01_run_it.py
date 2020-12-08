@@ -15,3 +15,5 @@
 
 '''
 print ("hello world")
+year = 365 * 86400
+print (year)
