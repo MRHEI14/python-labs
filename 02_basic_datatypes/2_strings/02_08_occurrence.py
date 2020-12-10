@@ -7,3 +7,10 @@ Letter input: o
 Result: 4
 
 '''
+
+string = input("String input: ")
+letter = input("Letter input: ")
+index = string.find(letter)
+print("Result: ", index)
+
+
