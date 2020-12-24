@@ -4,3 +4,15 @@ create a list of all the words in the string and print the word with the most
 occurrences.
 
 '''
+
+string = str(input("Write sentence: "))
+
+word_list = string.split()
+
+from collections import Counter
+words_to_count = (word for word in word_list)
+c = Counter(words_to_count)
+print (c.most_common(1))
+
+
+

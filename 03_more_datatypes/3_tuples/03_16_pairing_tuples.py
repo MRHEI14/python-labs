@@ -11,3 +11,20 @@ Note: This lab might be challenging! Make sure to discuss it with your mentor
 or chat about it on our forum.
 
 '''
+
+string = input("Input Numbers: ")
+
+list_1 = string.split()
+for i in range(0, len(list_1)):
+    list_1[i] = int(list_1[i])
+
+list_1.sort()
+list_2 = ()
+
+for i, tup2 in list_1:
+    for tup1 in i:
+        list_2 = (tup1, tup2)
+
+
+print("list_2 =", list_2)
+
