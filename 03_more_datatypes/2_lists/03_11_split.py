@@ -9,10 +9,19 @@ string = str(input("Write sentence: "))
 
 word_list = string.split()
 
-from collections import Counter
-words_to_count = (word for word in word_list)
-c = Counter(words_to_count)
-print (c.most_common(1))
+#from collections import Counter
+#words_to_count = (word for word in word_list)
+#c = Counter(words_to_count)
+#print (c.most_common(1))
+
+print(word_list)
+
+num = 0
+for elem in word_list:
+    if word_list.count(elem) > num:
+        elem += num
+print(elem)
+
 
 
 

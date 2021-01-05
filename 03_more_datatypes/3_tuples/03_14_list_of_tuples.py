@@ -12,7 +12,7 @@ string = str(input("Write string: "))
 list_1 = string.split()
 list_2 = []
 for x in list_1:
-    list_2.append(tuple(list(x)))
+    list_2.append(tuple(x))
 
 
 

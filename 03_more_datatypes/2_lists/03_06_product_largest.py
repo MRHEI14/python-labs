@@ -22,8 +22,12 @@ n_10 = int(input("10th number: "))
 
 list = [n_1, n_2, n_3, n_4, n_5, n_6, n_7, n_8, n_9, n_10]
 
-x = max(list)
-print("Highest number: ", x)
+biggest = 0
+for num in list:
+    if biggest < num:
+        biggest = num
+print("Highest number: ", biggest)
+
 
 product = 1
 for x in list:
